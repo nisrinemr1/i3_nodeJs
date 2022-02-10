@@ -1,0 +1,102 @@
+{
+    "categs": [
+        {
+            "id": 1,
+            "name": "YG entrainment",
+            "desc": "Seoul",
+            "subcategs": [
+                {
+                    "id": 1,
+                    "name": "Chanteurs",
+                    "desc": "Desc sub categ principale 1",
+                    "product": [
+                        {
+                            "id": 1,
+                            "name": "G-Dragon",
+                            "desc": "Membre du groupe Big Bang dans YG family",
+                            "url" : "http://images2.fanpop.com/image/polls/340000/340361_1260631217763_full.jpg"
+                        },
+                        {
+                            "id" : 2,
+                            "name" : "Park Bom",
+                            "des" : "chanteuse",
+                            "url" : "https://i.ytimg.com/vi/R6DRjmyR89c/maxresdefault.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "TS entrainment",
+            "desc": "Seoul",
+            "subcategs": [
+                {
+                    "id": 2,
+                    "name": "Chanteurs",
+                    "desc": "Desc sub categ principale 2",
+                    "product": [
+                        {
+                            "id": 1,
+                            "name": "Jackson",
+                            "desc": "Chanteur du groupe GOT7",
+                            "url":"https://weibuzz.files.wordpress.com/2019/01/jackson-meme.jpg?w=640"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Bang Yong Guk",
+                            "desc": "Membre du groupe BAP",
+                            "url" : "https://www.c-k-jpopnews.fr/wp-content/uploads/c-k-jpopnews-bang-yong-guk-se-confie-sur-ses-ressentis-4.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "JYP entrainment",
+            "desc": "Seoul",
+            "subcategs": [
+                {
+                    "id": 1,
+                    "name": "Chanteurs",
+                    "desc": "Desc sub categ principale 3",
+                    "product": [
+                        {
+                            "id": 1,
+                            "name": "Kim Hee Chul",
+                            "desc": "Commédien et membre du groupe Super Junior.",
+                            "url": "https://pbs.twimg.com/media/C6o_zANVsAEPway.jpg"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Autre",
+            "desc": "Corée du sud",
+            "subcategs": [
+                {
+                    "id": 4,
+                    "name": "Acteur / mannequin",
+                    "desc": "Acteurs populaire connus en Corée",
+                    "product": [
+                        {
+                            "id": 1,
+                            "name": "Gong Ji-chul (Gong Yoo)",
+                            "desc": "Mannequin et acteur connus dans divers drama et films. Notemment Silenced, le drama Goblin ou encore dans Squid Game.",
+                            "url":"https://cdn1-production-images-kly.akamaized.net/-QXpAfJD0Gw_RbfKKtKA8MRoF5U=/640x853/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/3427651/original/069192900_1618303721-gong-yoo-5.jpg"
+                        },
+                        {
+                            "id": 2,
+                            "name": "Jung Ho Yeon",
+                            "desc": "Actrice de la célèbre série Squid Game aka 오징어 게임",
+                            "url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Hoyeon_Jung_Milan_Fashion_Week_Autumn_Winter_2019.jpg/640px-Hoyeon_Jung_Milan_Fashion_Week_Autumn_Winter_2019.jpg"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

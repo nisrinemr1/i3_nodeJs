@@ -1,0 +1,12 @@
+{
+  "name": "suite4-1-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rappelJson.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "start":"node rappelJson.js"
+  },
+  "author": "Nisrine",
+  "license": "ISC"
+}
