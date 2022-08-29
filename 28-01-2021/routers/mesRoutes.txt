@@ -1,0 +1,41 @@
+Users (je veux exposé au web, des utilisateurs)
+    localhost:3000/api/users/       -->GET all users (récupérer tout les users)
+    localhost:3000/api/users/:id    -->GET one user by id (récupérer un user)
+    localhost:3000/api/users/       -->POST one user (ajouter un user)
+    localhost:3000/api/users/:id    -->PUT one user (modifir un user)
+    localhost:3000/api/users/:id    -->DELETE one user(supprimer un user)
+
+    ------- CRUD Create Read Update Delete -------------------- 
+    ------- CRUD Insert into, Select, Update, Delete ----------
+
+
+Products
+    Créer l'api suivante ! 
+    
+
+    localhost:3000/api/products/        --> get all
+    localhost:3000/api/products/:id     --> get one by id
+    localhost:3000/api/products/        --> post product
+    localhost:3000/api/products/:id     --> put / patch product
+    localhost:3000/api/products/:id     --> delete one product
+
+    localhost:3000/api/categories/          --> get all
+    localhost:3000/api/categories/:idProd   --> get one by id
+    localhost:3000/api/categories/          --> post categories
+    localhost:3000/api/categories/:idProd   --> put / patch categories on product
+    localhost:3000/api/categories/:idProd   --> delete one categories on product
+
+
+    je veux par exemple récupérer la listes des produits d'une categ
+    localhost:3000/api/categories/:idCateg/products/
+
+    imaginons un systemes contenant 3k produits, je dois les paginer de 25 en 25
+    localhost:3000/api/products/  <-- c'est ce qu'express va matcher
+    localhost:3000/api/products/?min=25&max=50    <-- ça c'est les options que l'on matchera DANS le controle de la route
+
+    imaginons une recherche dans mon administration suivant le nom d'un client
+    localhost:3000/api/products/:id
+    localhost:3000/api/products/:name
+
+    localhost:3000/api/products/42
+    localhost:3000/api/products/manon

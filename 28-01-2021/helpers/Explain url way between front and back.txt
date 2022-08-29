@@ -1,0 +1,8 @@
+le client demande la page des categ, le front (react) génère le html et css visuel de la page
+en même temps, il contact l'api (rest) pour recevoir les catégories grace à l'url donnée
+/api/categories -> react les recois comme reponse de http request -> et complète sont 
+template avec les infos des categ pour après, envoyer l'affichage au client
+
+-> le client clique sur une categ -> react commence à contruire la page html css, et en 
+même temps il appel l'api, avec l'url /api/categories/:idCateg/products -> l'api renvoi 
+les datas en json à react, qui continue de construire son template et l'affiche au client
